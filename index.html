@@ -17,36 +17,76 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+  <div class="container d-flex align-items-start justify-content-between" style="margin-left: 2rem; margin-right: 2rem; max-width: 1600px;">
+
+    <!-- Left Section: Logo and Navigation -->
+    <div class="d-flex align-items-start">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center me-4" href="index.html">
+        <img src="assets/img/logo.png" alt="Deccan College Logo" style="height: 50px; margin-right: 10px;">
+        DCET
+      </a>
+
+      <!-- Main Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav me-auto py-4 py-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-lg-3 py-3 py-lg-4" href="#" id="homeDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item" href="https://deccancollege.ac.in/about-us/" target="_blank" rel="noopener noreferrer">About Institution</a></li>
+              <li><a class="dropdown-item" href="https://deccancollege.ac.in/computer-science-engineering/" target="_blank" rel="noopener noreferrer">About the Department: Vision, Mission, Objectives, Core Values</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="course-file.html">Course File</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="students-corner.html">Students Corner</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="updates.html">Latest Updates</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Section: Dr Atif Info -->
+    <div class="d-none d-lg-block text-end nav-item">
+      <span class="nav-link fw-bold" style="padding-top: 1rem;">Dr Atif | Professor | CSE</span>
+    </div>
+
+  </div>
+</nav>
+
+
+
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Clean Blog</h1>
-                            <span class="subheading">A Blog Theme by Start Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <header class="masthead" style="background-image: url('assets/img/DET.png')">
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7 text-center">
+        <div class="site-heading">
+          <h1>Faculty Web Portal</h1>
+          <span class="subheading">Personal Academic Profile</span>
+        </div>
+        <!-- Faculty Info -->
+        <!-- <div class="mt-4 p-3 bg-light rounded shadow-sm">
+          <h4 class="fw-bold mb-1">Dr. Mahboob Atif</h4>
+          <p class="mb-1">Professor</p>
+          <p class="mb-1">Department of Computer Science</p>
+          <p class="mb-0">Deccan College of Engineering and Technology</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</header>
+
         <!-- Main Content-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
